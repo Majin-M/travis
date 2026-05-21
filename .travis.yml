@@ -1,8 +1,8 @@
 sudo: required
 services:
-  -docker
+  - docker
 script:
- -docker build -t stewmthd/travis-docker .
- -docker images stewmthd/travis-docker g
+ - docker build -t stewmthd/travis-docker .
+ - docker images stewmthd/travis-docker g
 
 
