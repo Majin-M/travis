@@ -1,0 +1,8 @@
+sudo: required
+services:
+  -docker
+script:
+ -docker build -t stewmthd/travis-docker .
+ -docker images stewmthd/travis-docker g
+
+
