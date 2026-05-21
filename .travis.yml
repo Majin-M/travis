@@ -3,6 +3,6 @@ services:
   - docker
 script:
  - docker build -t stewmthd/travis-docker .
- - docker images stewmthd/travis-docker g
+ - docker images stewmthd/travis-docker
 
 
